@@ -6,7 +6,7 @@ function convertToBool(text, fault = 'true') {
 }
 
 module.exports = {
-    SESSION_ID: process.env.SESSION_ID || "",
+    SESSION_ID: process.env.SESSION_ID || "suho~l3d3FQzR#e3cq1UEUBj0vJE2JCDiTTFGx7ThWY9IPD03N5qaPq7k",
     // add your Session Id make sure it starts with suho~
 
     PREFIX: process.env.PREFIX || ".",
@@ -15,7 +15,7 @@ module.exports = {
     BOT_NAME: process.env.BOT_NAME || "sᴜɴɢ-sᴜʜᴏ-ᴍᴅ",
     // add bot name here for menu
 
-    MODE: process.env.MODE || "public",
+    MODE: process.env.MODE || "inbox",
     // make bot public-private-inbox-group 
 
     LINK_WHITELIST: "youtube.com,github.com",
@@ -36,7 +36,7 @@ module.exports = {
     AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*sᴛᴀᴛᴜs sᴇᴇɴ ʙʏ ᴍᴇ 😆*",
     // set the auto reply message on status reply  
 
-    WELCOME: process.env.WELCOME || "true",
+    WELCOME: process.env.WELCOME || "false",
     // true if want welcome and goodbye msg in groups 
 
     ADMIN_EVENTS: process.env.ADMIN_EVENTS || "false",
@@ -103,7 +103,7 @@ module.exports = {
     AUTO_REPLY: process.env.AUTO_REPLY || "false",
     // make true or false automatic text reply 
 
-    ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",
+    ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "true",
     // make true for always online 
 
     PUBLIC_MODE: process.env.PUBLIC_MODE || "false",
@@ -115,7 +115,7 @@ module.exports = {
     READ_CMD: process.env.READ_CMD || "false",
     // true if want mark commands as read  
 
-    DEV: process.env.DEV || "27813374457",
+    DEV: process.env.DEV || "233540190963",
     // replace with your whatsapp number  
 
     ANTI_VV: process.env.ANTI_VV || "true",
